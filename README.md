@@ -58,4 +58,6 @@ $ make destroy_machine
     make seed_db                 -> populate some dummy data in the db
     make run_tests               -> Runs all the tests
     make build_coverage          -> Builds the code coverage report (www/restapi/coverage)
+    make integration             -> Running only integration tests
+    make unit                    -> Running only Unit tests
 ```
